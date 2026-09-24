@@ -6,7 +6,8 @@ nav{
   
 }
 .logo img{
-  filter: sepia(1) saturate(10) hue-rotate(5deg);
+  margin-top: 3px;
+  filter: brightness(0) saturate(100%) invert(75%) sepia(90%) saturate(1500%) hue-rotate(5deg);
 }
 .others ul{
   font-size: 11px;
@@ -15,7 +16,7 @@ nav{
   gap: 8px;
   list-style: none;
 }
-button{
+.join{
   font-weight: bold;
   font-size: 8px;
   border-radius: 7px;
