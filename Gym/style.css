@@ -10,6 +10,8 @@ nav{
   filter: brightness(0) saturate(100%) invert(75%) sepia(90%) saturate(1500%) hue-rotate(5deg);
 }
 .others ul{
+  display: flex;
+  cursor: pointer;
   font-size: 11px;
   margin-left: 85%;
   display: flex;
@@ -17,6 +19,7 @@ nav{
   list-style: none;
 }
 .join{
+  cursor: pointer;
   font-weight: bold;
   font-size: 8px;
   border-radius: 7px;
@@ -41,9 +44,20 @@ nav{
   margin: 0px;
 }
 .build{
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 35px;
+  padding-top: 20px;
+  padding-left: 3.8%;
   color: white;
+  line-height: 0.8;
 }
 .best{
+  font-weight: bold;
+  line-height: 0.8;
+  font-family: monospace;
+  font-size: 35px;
+  padding-left: 3.8%;
   color: yellow;
 }
 h5{
@@ -51,4 +65,20 @@ h5{
 }
 #dot{
   color: yellow;
+}
+.dots{
+  font-size: 10px;
+  padding-left: 3.8%;
+}
+.start{
+  display: flex;
+  padding-top: 3px;
+  font-size: 12px;
+  justify-content: center;
+  border-radius: 5px;
+  margin-left: 3.8%;
+  width: 135px;
+  height: 18px;
+  background-color: yellow;
+  
 }
