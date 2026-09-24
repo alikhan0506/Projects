@@ -25,3 +25,30 @@ nav{
   height: 15px;
   background-color: yellow;
 }
+.name{
+  color:white;
+}
+.zone{
+  color: yellow;
+}
+.first{
+  width: 100%;
+  min-height: 200px;
+  background-image: url(bg.png); 
+  background-size: 100% 100%;
+}
+.first h3{
+  margin: 0px;
+}
+.build{
+  color: white;
+}
+.best{
+  color: yellow;
+}
+h5{
+  color: white;
+}
+#dot{
+  color: yellow;
+}
