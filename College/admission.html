@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admission</title>
+  <style>
+    a{
+      padding: 10px;
+      background-color: #eee;
+      border-radius: 5px;
+    }
+    </style>
+</head>
+
+<body>
+  <h1>ADMISSION</h1>
+
+  <a href="index.html">HOME</a>
+  <a href="about.html">ABOUT US</a>
+  <a href="courses.html">Courses</a>
+  <a href="admission.html">ADMISSION</a>
+  <a href="contact.html">CONTACT</a>
+
+  <h2>Admission Form</h2>
+
+  <form action="post">
+    <div>
+      <label for="name">Enter Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter Your Name">
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" name="Email" id="Email" placeholder="Enter Your Email">
+    </div>
+    <div>
+      <label for="Mobile">Mobile Number</label>
+      <input type="number" id="Mobile" name="Mobile" placeholder="Enter Your Mobile Number">
+    </div>
+    <div>
+      Gender:
+      <label for="male">Male</label>
+      <input type="radio" id="Gender" name="Gender" value="male">
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="Gender" value="female">
+    </div>
+    <div>
+      Course:
+      <select>
+        <option>BCA</option>
+        <option>MCA</option>
+        <option>B.Sc</option>
+      </select>
+    </div>
+    <div>
+      Address: <br>
+      <textarea rows="4" cols="30"></textarea>
+    </div>
+    <div>
+      <input type="submit" value="Apply Now">
+    </div>
+    
+  </form>
+
+  
+
+  
+</body>
+</html>
